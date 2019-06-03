@@ -2,7 +2,7 @@
 
 ## How to
 
-Copy `.env.dist` file to `.env` file.
+Update `.env` file if needed.
 
 ### Configure Blackfire
 
@@ -17,19 +17,19 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 
 
 * Clone this repository, in `web` folder. Execute "make up" in the terminal.
-* Access "http://wp.docker.localhost:8000"
+* Access "http://ps.docker.localhost"
 * The End.
 
 
 
 * Clone this repository, in `web` folder do "make up"
-* Access "http://wp.docker.localhost:8000"
+* Access "http://ps.docker.localhost"
 * The End.
 
 
 ### Blackfire curl
 
-=> Once Wordpress Web installation process is done, trigger a build for "http://wp.docker.localhost:8000/?p=1"
+=> Once Wordpress Web installation process is done, trigger a build for "http://ps.docker.localhost/?p=1"
 
 ```
 make blackfire "curl nginx/?p=1"
@@ -41,7 +41,7 @@ On Mac
 docker-compose run blackfire blackfire curl "nginx/?p=1"
 ```
 
-=> trigger a build for "http://wp.docker.localhost:8000/?p=1"
+=> trigger a build for "http://ps.docker.localhost/?p=1"
 
 > In case of double quotes issue, rely on docker-compose binary: ``docker-compose run blackfire blackfire curl '<your-curl-request>'``
 
@@ -51,7 +51,7 @@ On Google Chrome, should works else add the virtual host:
 
 Add 
 ```
-127.0.0.1 wp.docker.localhost
+127.0.0.1 ps.docker.localhost
 ```
 
 to your `/etc/hosts` (for linux, mac?) or `C:\Windows\System32\drivers\etc\hosts`
