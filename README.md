@@ -21,7 +21,7 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 * Access to "http://ps.docker.localhost" and process to prestashop installation
 * The End.
 
-Now to lunch prestashop with Blackfire, Execute:
+Now to start prestashop with Blackfire, Execute:
 ```
 docker-compose up
 ```
