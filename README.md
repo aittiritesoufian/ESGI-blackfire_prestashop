@@ -21,12 +21,6 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 * The End.
 
 
-
-* Clone this repository, in `web` folder do "make up"
-* Access "http://ps.docker.localhost"
-* The End.
-
-
 ### Blackfire curl
 
 => Once Wordpress Web installation process is done, trigger a build for "http://ps.docker.localhost/?p=1"
