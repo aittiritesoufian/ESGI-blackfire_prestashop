@@ -21,8 +21,8 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 * Access to "http://ps.docker.localhost" and process to prestashop installation
 * Now to stop/start prestashop with Blackfire, Execute:
 ```
-$ docker-compose down
-$ docker-compose up
+$ make stop
+$ make start
 ```
 
 ### Blackfire curl
