@@ -52,3 +52,8 @@ Add
 ```
 
 to your `/etc/hosts` (for linux, mac?) or `C:\Windows\System32\drivers\etc\hosts`
+
+### Database interface
+
+You can access to *Adminer* interface to access to your database by this url:
+"http://ps.docker.localhost/adminer.php"
