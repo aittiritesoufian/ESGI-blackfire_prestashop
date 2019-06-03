@@ -1,4 +1,4 @@
-# Wordpress on Docker (with Blackfire support)
+# Prestashop on Docker (with Blackfire support)
 
 ## How to
 
@@ -16,14 +16,20 @@ In `.env` file, complete these fields:
 by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (you need to log in).
 
 
-* Clone this repository, in `web` folder. Execute "make up" in the terminal.
-* Access "http://ps.docker.localhost"
+* Clone this repository.
+* Move to web directory and execute "make up" in the terminal.
+* Access to "http://ps.docker.localhost" and process to prestashop installation
 * The End.
+
+Now to lunch prestashop with Blackfire, Execute:
+```
+docker-compose up
+```
 
 
 ### Blackfire curl
 
-=> Once Wordpress Web installation process is done, trigger a build for "http://ps.docker.localhost/?p=1"
+=> Once Prestashop Web installation process is done, trigger a build for "http://ps.docker.localhost/?p=1"
 
 ```
 make blackfire "curl nginx/?p=1"
