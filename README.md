@@ -24,6 +24,10 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 $ make stop
 $ make start
 ```
+* To remove container
+```
+$ make uninstall
+```
 
 ### Blackfire curl
 
