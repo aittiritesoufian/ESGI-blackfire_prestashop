@@ -2,7 +2,7 @@
 
 ## How to
 
-Update `.env` file if needed.
+Copy `.env.dist` file to `.env` file.
 
 ### Configure Blackfire
 
