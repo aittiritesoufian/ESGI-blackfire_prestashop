@@ -52,7 +52,3 @@ Add
 ```
 
 to your `/etc/hosts` (for linux, mac?) or `C:\Windows\System32\drivers\etc\hosts`
-
-### Still stuck?
-
-Read [this](https://wodby.com/docs/stacks/wordpress/local/#usage) please.
