@@ -18,14 +18,11 @@ by your [Blackfire credentials](https://blackfire.io/my/settings/credentials) (y
 
 * Clone this repository.
 * Move to web directory and execute "make up" in the terminal.
-* Access to "http://ps.docker.localhost" and process to prestashop installation
-* The End.
-
-Now to start prestashop with Blackfire, Execute:
+* Now to start prestashop with Blackfire, Execute:
 ```
 docker-compose up
 ```
-
+* Access to "http://ps.docker.localhost" and process to prestashop installation
 
 ### Blackfire curl
 
